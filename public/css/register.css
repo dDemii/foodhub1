@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat&display=swap');
+
+.body-regis{
+    background: url('https://images.unsplash.com/photo-1639048759250-47646c3f3c0d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.regis-heading {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+.card{
+
+    background-color: #000000;
+    opacity: 85%;
+    color:#ffffff;
+    margin: 10%;
+}
+.login-header{
+
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+
+}
+h1{
+    font-family: 'Archivo Black', sans-serif;
+    text-align: center;
+    margin-top: 5%;
+}
+h4, p{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+a.log{
+
+    font-family: 'Montserrat', sans-serif;
+    color:#FFA31A;
+    font-size: 1vw;
+
+}
+
+.f{
+
+    color:#ffffff;
+
+}
+span{
+
+    color: #FFA31A;
+
+}
+.btn-log{
+    --bs-btn-color: #6c757d;
+    --bs-btn-border-color: #6c757d;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #6c757d;
+    --bs-btn-hover-border-color: #6c757d;
+    --bs-btn-focus-shadow-rgb: 108, 117, 125;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #6c757d;
+    --bs-btn-active-border-color: #6c757d;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #6c757d;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #6c757d;
+    --bs-gradient: none;
+}
+.btn-outline-lig {
+    --bs-btn-color: #FFA31A;
+    --bs-btn-active: #fff;
+    font-weight: bold;
+    font-size: 1.5vw;
+}

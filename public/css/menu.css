@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat&display=swap');
+
+body {
+    background-color: black;
+}
+
+.container-menu {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* align items to the top */
+}
+
+.welcome-to, .f-h {
+    font-family: 'Archivo Black', 'Arial Black', 'Sans-serif';
+    font-size: 5vw;
+    text-align: center;
+    margin: 0;
+    position: relative;
+}
+.caro{
+
+    margin: auto;
+    height: 50% !important;
+    object-fit: fill;
+
+}
+.welcome-to {
+    color: #e67e22;
+    font-size: 3vw;
+}
+
+.f-h {
+    margin-top: -0.3em;
+    color: #fff;
+    
+}
+
+.f-h::after {
+    content: "";
+    position: absolute;
+    left: 34.5vw;
+    right: 44.9vw;
+    bottom: 0.4vw;
+    border-bottom: 0.7vw solid white;
+}
+
+.f-h2 {
+    color: #FFA31A;
+}
+
+.f-h2::after {
+    content: "";
+    position: absolute;
+    left: 47.5vw;
+    right: 34.5vw;
+    bottom: 0.4vw;
+    border-bottom: 0.7vw solid #FFA31A;
+}
+
+.tagline {
+    font-family: 'Montserrat','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1vw;
+    color: #fff;
+    margin-top: 3vw;
+    margin-bottom: 1.5vw;
+}
+
+.menu-word {
+    font-family: 'Archivo Black', 'Arial Black', 'Sans-serif';
+    font-size: 5vw;
+    color: #fff;
+    text-align: center;
+
+}
+
+.card {
+    background-color: #fff;
+}
+
+.menu-item2 {
+    color: #000;
+}
+
+.card-header {
+    font-family: 'Archivo Black', 'Arial Black', 'Sans-serif';
+    font-size: 2vw;
+    text-align: center;
+}
+
+.card-body {
+    font-family: 'Montserrat','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1vw;
+}
