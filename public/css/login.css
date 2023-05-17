@@ -24,10 +24,10 @@
   
   .login-h12 {
     font-family: 'Montserrat';
-    font-size: 5vw;
+    font-size: 4vw;
     color: white;
     margin-left: 10%;
-    margin-top: 0;
+    margin-top: 1vw;
     margin-bottom: 50px;
     line-height: 1.2;
     text-align: left;
@@ -35,7 +35,7 @@
   }
   
   /* card */
-  .col-custom-login2 {
+  .card.col-custom-login2 {
     background: #000;
     padding: 1px;
     border-radius: 2px;
@@ -71,7 +71,7 @@
   }
   
   .mb-3 span {
-    color: white;
+    color: #FFF;
     font-size: 20px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -104,5 +104,21 @@
     font-style: normal;
     font-size: 1vw;
 
+  }
+
+  .log2:hover {
+    color: #FFA31A;
+    font-family: 'Montserrat';
+    font-style: bold;
+    font-size: 1.2vw;
+
+  }
+
+  .login-header2 {
+    color: #000;
+  }
+
+  .login-header2 {
+    color: #FFF;
   }
   

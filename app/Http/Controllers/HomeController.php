@@ -23,6 +23,12 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $admin = false;
+        // get all the products
+        $menus = Menu::all();
+
+
+        //pass the data to th view
+        return view('menu', ['menus' => $menus, 'admin' => $admin],);
     }
 }

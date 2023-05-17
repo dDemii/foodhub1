@@ -23,9 +23,25 @@ Route::get('/menu', function () {
     return view('menu');
 })->name('menu');
 
+Route::get('/menu', function () {
+    if (Auth::check() && Auth::user()->isAdmin()) {
+        return view('menu');
+    } else {
+        return redirect('/home');
+    }
+})->middleware(['auth']);
+
+
 
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/menu', [App\Http\Controllers\MenuController::class, 'index'])->name('menu');
 Route::get('/planner', [App\Http\Controllers\PlannerController::class, 'index'])->name('planner');
+Route::get('/menu/add', [MenuController::class, 'create'])->name('add');
+Route::post('/menu', [MenuController::class, 'store'])->name('menu.store');
+Route::delete('/menu/delete/{id}', [MenuController::class, 'destroy'])->name('menu.destroy');
+
+
+
+

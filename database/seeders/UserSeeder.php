@@ -18,11 +18,11 @@ class UserSeeder extends Seeder
     public function run()
     {
         User::create([
-            'id' => 1,
-            'name' => "Dimmie Luces",
-            'email' => "dimsluces@gmail.com",
+            'id' => 2,
+            'name' => "de",
+            'email' => "dluces@gbox.adnu.edu.ph",
             'email_verified_at' => Carbon::now(),
-            'password' => Hash::make('password'),
+            'password' => Hash::make('aaaaaaaaz'),
             'remember_token' => Str::random(10),
             'isAdmin' => true
         ]);

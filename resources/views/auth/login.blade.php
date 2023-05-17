@@ -10,7 +10,7 @@
                 <div class="col align-self-center">
                     <h2 class="login-fh2">Food<span>Hub</span></h2>        
 
-                    <h1 class="login-h12">Satisfy Your<br>Cravings In<br>A Click!</h1>
+                    <h1 class="login-h12">SATISFY YOUR<br>CRAVINGS IN<br>A CLICK!</h1>
                 </div>
 
                     <div class="card col col-custom-login2">

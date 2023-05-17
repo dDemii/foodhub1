@@ -17,11 +17,11 @@ body {
     margin: 0;
     position: relative;
 }
-.caro{
+.caro img{
 
-    margin: auto;
-    height: 50% !important;
-    object-fit: fill;
+    object-fit: cover;
+    object-position: center;
+    height: 70vh;
 
 }
 .welcome-to {
@@ -66,10 +66,11 @@ body {
 }
 
 .menu-word {
-    font-family: 'Archivo Black', 'Arial Black', 'Sans-serif';
+    font-family: 'Montserrat','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 5vw;
     color: #fff;
-    text-align: center;
+    text-align: left;
+    padding-left: 5%;
 
 }
 
@@ -90,4 +91,32 @@ body {
 .card-body {
     font-family: 'Montserrat','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1vw;
+}
+
+.card-horizontal{
+    display: flex;
+    flex: 1 1 auto;
+
+}
+
+.card-horizontal img{
+    object-fit: cover;
+    object-position: center;
+    height: 30vh;
+}
+
+
+.text{
+    font-size: 20px;
+    color: #fff;
+}
+
+.namesize{
+    font-size: 5vh;
+    color: #fff;
+}
+
+.formheader{
+    font-family: 'Montserrat','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
 }

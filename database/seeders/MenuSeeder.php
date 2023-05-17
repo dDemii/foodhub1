@@ -19,26 +19,9 @@ class MenuSeeder extends Seeder
             [
                 'name' => 'MiloDino',
                 'restaurant' => 'SERENITEA',
-                'recipe' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+                'price' => '50.00',
                 'video_url' => 'https://youtube.com/shorts/5_8FBizbyVo?feature=share',
-            ],
-            [
-                'name' => 'Dimmie',
-                'restaurant' => 'AAAAA',
-                'recipe' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-                'video_url' => 'https://youtube.com/shorts/5_8FBizbyVo?feature=share',
-            ],
-            [
-                'name' => 'Rylii',
-                'restaurant' => 'BBBBB',
-                'recipe' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-                'video_url' => 'https://youtube.com/shorts/5_8FBizbyVo?feature=share',
-            ],
-            [
-                'name' => 'Adrey',
-                'restaurant' => 'CCCCC',
-                'recipe' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-                'video_url' => 'https://youtube.com/shorts/5_8FBizbyVo?feature=share',
+                'assets' => 'milodino.jpg',
             ],
         ];
 

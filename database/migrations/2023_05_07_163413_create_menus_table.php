@@ -17,8 +17,9 @@ class CreateMenusTable extends Migration
             $table->id();
             $table->string('name');
             $table->string('restaurant');
-            $table->text('recipe');
+            $table->double('price');
             $table->text('video_url');
+            $table->string('assets');
             $table->timestamps();
         });
     }

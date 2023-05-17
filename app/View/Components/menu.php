@@ -11,9 +11,13 @@ class menu extends Component
      *
      * @return void
      */
-    public function __construct()
+
+    public $menus;
+    public $admin;
+    public function __construct($menus, $admin)
     {
-        //
+        $this->menus = $menus;
+        $this->admin = $admin;
     }
 
     /**

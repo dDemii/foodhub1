@@ -6,6 +6,13 @@
     background-size: cover;
     background-position: center;
 }
+
+.image-holder2{
+    background: url("https://images.unsplash.com/photo-1647264067640-7d0a7e898f7f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80");
+    background-size: cover;
+    background-position: center;
+}
+
 .text-holder{
     background-color: black;
     color: white;
@@ -16,11 +23,13 @@
 }
 .heading-text{
     font-family: 'Archivo Black', sans-serif;
+    color: #fff;
     font-size: 7vw;
 }
 .subtitle{
     font-size: 1.75vw;
     letter-spacing: 3px;
+    color: #fff;
     font-family: 'Montserrat';
 }
 .text-container{
@@ -33,16 +42,11 @@ h2 {
     font-size: 4vw;
 }
 
-.lead {
-    font-size: 1vw;
-    letter-spacing: 1px;
-    font-family: 'Montserrat';
-}
-
 .about-us {
     color: #FFA31A;
     font-family: 'Archivo Black';
-    font-size: 2vw; 
+    font-size: 3vw; 
+    text-align: center;
     margin-top: 90px;
     margin-bottom: 20px;
 }
@@ -54,3 +58,35 @@ h2 {
     border-radius: 50%;
     margin: 10px;
   }
+
+
+  .text-container2{
+    margin-top: 70px;
+}
+
+
+  .who {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 5vw;
+    color: #fff;
+    margin-left: 4vw;
+  }
+
+  .subtitle2{
+    font-size: 1.5vw;
+    letter-spacing: 1px;
+    font-family: 'Montserrat';
+    margin-top: 1vw;
+    text-align: left;
+    color: #fff;
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+
+.dev {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #FFF;
+    letter-spacing: 1px;
+}

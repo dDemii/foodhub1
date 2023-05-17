@@ -9,11 +9,10 @@
 
 .regis-heading {
     font-family: 'Montserrat', sans-serif;
-    color: #fff;
+    color: #000;
 }
 
 .card{
-
     background-color: #000000;
     opacity: 85%;
     color:#ffffff;
@@ -29,10 +28,12 @@ h1{
     font-family: 'Archivo Black', sans-serif;
     text-align: center;
     margin-top: 5%;
+    color: #000;
 }
 h4, p{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    color: #000;
 }
 
 a.log{
@@ -56,7 +57,7 @@ span{
 .btn-log{
     --bs-btn-color: #6c757d;
     --bs-btn-border-color: #6c757d;
-    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-color: #000;
     --bs-btn-hover-bg: #6c757d;
     --bs-btn-hover-border-color: #6c757d;
     --bs-btn-focus-shadow-rgb: 108, 117, 125;
@@ -69,9 +70,16 @@ span{
     --bs-btn-disabled-border-color: #6c757d;
     --bs-gradient: none;
 }
+
 .btn-outline-lig {
     --bs-btn-color: #FFA31A;
-    --bs-btn-active: #fff;
+    --bs-btn-active: #000;
     font-weight: bold;
     font-size: 1.5vw;
+}
+
+.btn-outline-lig:hover {
+color:#000;
+font-weight: bold;
+font-size: 1.7vw;
 }

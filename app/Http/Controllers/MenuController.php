@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Support\Facades\Auth;
 use App\Models\Menu;
 use Illuminate\Http\Request;
 
@@ -26,7 +27,7 @@ class MenuController extends Controller
      */
     public function create()
     {
-        //
+        return view('addMenu');
     }
 
     /**
@@ -37,8 +38,26 @@ class MenuController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        // get the filename of image uploaded
+        $filename = $request->assets->getClientOriginalName();
+        // store in public folder
+        $request->assets->move(public_path('assets'), $filename);
+
+        $menu = Menu::create([
+            'name' => $request['name'],
+            'restaurant' => $request['restaurant'],
+            'price' => $request['price'],
+            'video_url' => $request['video_url'],
+            'assets' => $filename,
+            'id' => Auth::id()
+        ]);
+
+
+    
+        return redirect('/menu')->with('success', 'Menu added successfully');
     }
+    
+    
 
     /**
      * Display the specified resource.
@@ -80,8 +99,13 @@ class MenuController extends Controller
      * @param  \App\Models\Menu  $menu
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Menu $menu)
-    {
-        //
-    }
+    public function destroy($id)
+{
+    $menu = Menu::find($id);
+
+
+        $menu->delete();
+        return redirect('menu');
+}
+
 }
